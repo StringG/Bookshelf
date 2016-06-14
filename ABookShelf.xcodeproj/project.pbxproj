@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A630E4931D0FDA25007056D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A630E4921D0FDA25007056D2 /* main.m */; };
+		A630E4961D0FDA25007056D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A630E4951D0FDA25007056D2 /* AppDelegate.m */; };
+		A630E4991D0FDA25007056D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A630E4981D0FDA25007056D2 /* ViewController.m */; };
+		A630E49C1D0FDA25007056D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A630E49A1D0FDA25007056D2 /* Main.storyboard */; };
+		A630E49F1D0FDA25007056D2 /* ABookShelf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A630E49D1D0FDA25007056D2 /* ABookShelf.xcdatamodeld */; };
+		A630E4A11D0FDA25007056D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A630E4A01D0FDA25007056D2 /* Assets.xcassets */; };
+		A630E4A41D0FDA25007056D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A630E4A21D0FDA25007056D2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A630E48E1D0FDA25007056D2 /* ABookShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABookShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A630E4921D0FDA25007056D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A630E4941D0FDA25007056D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A630E4951D0FDA25007056D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A630E4971D0FDA25007056D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A630E4981D0FDA25007056D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A630E49B1D0FDA25007056D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A630E49E1D0FDA25007056D2 /* ABookShelf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ABookShelf.xcdatamodel; sourceTree = "<group>"; };
+		A630E4A01D0FDA25007056D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A630E4A31D0FDA25007056D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A630E4A51D0FDA25007056D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A630E48B1D0FDA25007056D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A630E4851D0FDA25007056D2 = {
+			isa = PBXGroup;
+			children = (
+				A630E4901D0FDA25007056D2 /* ABookShelf */,
+				A630E48F1D0FDA25007056D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A630E48F1D0FDA25007056D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A630E48E1D0FDA25007056D2 /* ABookShelf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A630E4901D0FDA25007056D2 /* ABookShelf */ = {
+			isa = PBXGroup;
+			children = (
+				A630E4941D0FDA25007056D2 /* AppDelegate.h */,
+				A630E4951D0FDA25007056D2 /* AppDelegate.m */,
+				A630E4971D0FDA25007056D2 /* ViewController.h */,
+				A630E4981D0FDA25007056D2 /* ViewController.m */,
+				A630E49A1D0FDA25007056D2 /* Main.storyboard */,
+				A630E4A01D0FDA25007056D2 /* Assets.xcassets */,
+				A630E4A21D0FDA25007056D2 /* LaunchScreen.storyboard */,
+				A630E4A51D0FDA25007056D2 /* Info.plist */,
+				A630E49D1D0FDA25007056D2 /* ABookShelf.xcdatamodeld */,
+				A630E4911D0FDA25007056D2 /* Supporting Files */,
+			);
+			path = ABookShelf;
+			sourceTree = "<group>";
+		};
+		A630E4911D0FDA25007056D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A630E4921D0FDA25007056D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A630E48D1D0FDA25007056D2 /* ABookShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A630E4A81D0FDA25007056D2 /* Build configuration list for PBXNativeTarget "ABookShelf" */;
+			buildPhases = (
+				A630E48A1D0FDA25007056D2 /* Sources */,
+				A630E48B1D0FDA25007056D2 /* Frameworks */,
+				A630E48C1D0FDA25007056D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABookShelf;
+			productName = ABookShelf;
+			productReference = A630E48E1D0FDA25007056D2 /* ABookShelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A630E4861D0FDA25007056D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = guoyunlong;
+				TargetAttributes = {
+					A630E48D1D0FDA25007056D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A630E4891D0FDA25007056D2 /* Build configuration list for PBXProject "ABookShelf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A630E4851D0FDA25007056D2;
+			productRefGroup = A630E48F1D0FDA25007056D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A630E48D1D0FDA25007056D2 /* ABookShelf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A630E48C1D0FDA25007056D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A630E4A41D0FDA25007056D2 /* LaunchScreen.storyboard in Resources */,
+				A630E4A11D0FDA25007056D2 /* Assets.xcassets in Resources */,
+				A630E49C1D0FDA25007056D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A630E48A1D0FDA25007056D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A630E4991D0FDA25007056D2 /* ViewController.m in Sources */,
+				A630E49F1D0FDA25007056D2 /* ABookShelf.xcdatamodeld in Sources */,
+				A630E4961D0FDA25007056D2 /* AppDelegate.m in Sources */,
+				A630E4931D0FDA25007056D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A630E49A1D0FDA25007056D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A630E49B1D0FDA25007056D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A630E4A21D0FDA25007056D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A630E4A31D0FDA25007056D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A630E4A61D0FDA25007056D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A630E4A71D0FDA25007056D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A630E4A91D0FDA25007056D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ABookShelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeiYiTong.ABookShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A630E4AA1D0FDA25007056D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ABookShelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeiYiTong.ABookShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A630E4891D0FDA25007056D2 /* Build configuration list for PBXProject "ABookShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A630E4A61D0FDA25007056D2 /* Debug */,
+				A630E4A71D0FDA25007056D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A630E4A81D0FDA25007056D2 /* Build configuration list for PBXNativeTarget "ABookShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A630E4A91D0FDA25007056D2 /* Debug */,
+				A630E4AA1D0FDA25007056D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A630E49D1D0FDA25007056D2 /* ABookShelf.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A630E49E1D0FDA25007056D2 /* ABookShelf.xcdatamodel */,
+			);
+			currentVersion = A630E49E1D0FDA25007056D2 /* ABookShelf.xcdatamodel */;
+			path = ABookShelf.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A630E4861D0FDA25007056D2 /* Project object */;
+}
